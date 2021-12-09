@@ -1,4 +1,6 @@
 {
   "item.en.enderite_ingot": "Enderite Ingot",
-  "item.en.enderite_scrap": "Enderite Scrap"
+  "item.en.enderite_scrap": "Enderite Scrap",
+
+  "block.en.enderite_block": "Block of Enderite"
 }

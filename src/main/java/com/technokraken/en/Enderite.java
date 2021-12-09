@@ -1,5 +1,6 @@
 package com.technokraken.en;
 
+import com.technokraken.en.item.ModItems;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
@@ -27,6 +28,9 @@ public class Enderite {
 
     public Enderite() {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModItems.register(eventBus);
+
         eventBus.addListener(this::setup);
 
         MinecraftForge.EVENT_BUS.register(this);
